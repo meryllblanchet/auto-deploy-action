@@ -20,9 +20,9 @@ jobs:
     - name: npm install, deploy
       env:
         CI: true
-        __OW_API_KEY: ${{ secrets.__OW_API_KEY }}
-        __OW_NAMESPACE: ${{ secrets.__OW_NAMESPACE }}
-        __OW_API_HOST: ${{ secrets.__OW_API_HOST }}
+        AIO_RUNTIME_AUTH: ${{ secrets.__OW_API_KEY }}
+        AIO_RUNTIME_NAMESPACE: ${{ secrets.__OW_NAMESPACE }}
+        AIO_RUNTIME_APIHOST: ${{ secrets.__OW_API_HOST }}
       run: |
         npm install
         npm run deploy
