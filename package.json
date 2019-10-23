@@ -1,0 +1,23 @@
+{
+  "name": "auto-deploy-action",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy": "aio --help"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/purplecabbage/auto-deploy-action.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/purplecabbage/auto-deploy-action/issues"
+  },
+  "homepage": "https://github.com/purplecabbage/auto-deploy-action#readme",
+  "dependencies": {
+    "@adobe/aio-cli": "^2.1.1"
+  }
+}
