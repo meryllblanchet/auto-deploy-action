@@ -17,6 +17,7 @@
     "url": "https://github.com/purplecabbage/auto-deploy-action/issues"
   },
   "homepage": "https://github.com/purplecabbage/auto-deploy-action#readme",
+  "publishConfig": { "registry": "https://npm.pkg.github.com/" },
   "dependencies": {
     "@adobe/aio-cli": "^2.1.1"
   }
