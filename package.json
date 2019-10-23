@@ -5,7 +5,9 @@
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "aio rt action update hello actions/hello.js"
+    "deploy": "aio rt action update hello actions/hello.js",
+    "invoke": "aio rt action invoke hello -p name Octocat -b",
+    "last-log": "aio rt logs -l"
   },
   "repository": {
     "type": "git",
