@@ -1,6 +1,6 @@
 function main(params) {
     console.log('main called with params:', params)
-    return { payload: 'Hello ' + params.name };
+    return { payload: 'Good morning ' + params.name };
 }
 
 exports.main = main;
